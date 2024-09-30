@@ -1,0 +1,15 @@
+console.log("Nombre propiedad: " + navigator.language);
+console.log("Nombre propiedad: " + navigator.clipboard);
+console.log("Nombre propiedad: " + navigator.cookieEnabled);
+console.log("Nombre propiedad: " + navigator.credentials);
+console.log("Nombre propiedad: " + navigator.doNotTrack);
+console.log("Nombre propiedad: " + navigator.geolocation);
+console.log("Nombre propiedad: " + navigator.hardwareConcurrency);
+console.log("Nombre propiedad: " + navigator.locks);
+console.log("Nombre propiedad: " + navigator.maxTouchPoints);
+console.log("Nombre propiedad: " + navigator.mediaCapabilities);
+console.log("Nombre propiedad: " + navigator.mediaDevices);
+console.log("Nombre propiedad: " + navigator.mediaSession);
+console.log("Nombre propiedad: " + navigator.onLine);
+console.log("Nombre propiedad: " + navigator.pdfViewerEnabled);
+console.log("Nombre propiedad: " + navigator.pdfViewerEnabled);
