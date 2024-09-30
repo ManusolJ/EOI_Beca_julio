@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    font-family: 'lato', sans-serif;
+    overflow: hidden;
+}
+
+nav {
+    max-height: 70px;
+    background-color: #E6E3DD;
+}
+
+#logo {
+    max-height: 70px;
+    width: auto;
+}
+
+#pfp {
+    max-height: 50px;
+    width: auto;
+}
+
+#link_container li {
+    transition: 0.5s ease-in-out;
+}
+
+#link_container>li:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#background_section_1 {
+    background: rgb(7, 3, 88);
+    background: linear-gradient(180deg, rgba(7, 3, 88, 1) 1%, rgba(9, 9, 121, 1) 33%, rgba(32, 102, 165, 1) 69%, rgba(74, 127, 165, 1) 92%);
+    color: white;
+}
+
+.card {
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+#top_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+footer {
+    overflow: hidden;
+}
