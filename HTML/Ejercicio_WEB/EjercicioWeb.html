@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Web</title>
+    <link rel = "stylesheet" href = "EjercicioWeb.css">
+</head>
+<body>
+    <header>
+        <h1>A warm welcome!</h1>
+        <p>Boostrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use these utilities?</p>
+        <button class = "btn">Call to action</button>
+    </header>
+
+    <nav>
+        <div class="logo">
+            <img src="https://toppng.com/uploads/preview/cat-derp-face-derp-cat-drawi-11563225670qzgqg5hanu.png" alt="Logotipo">
+        </div>
+        <ul>
+            <li><a href="Placeholder">Home</a></li>
+            <li><a href="Placeholder">About</a></li>
+            <li><a href="Placeholder">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id = "boxes">
+            <ul>
+                <li>
+                    <h2>Fresh new layout</h2>
+                    <p>With Boostrap 5, we've created a fresh new layout for this template!</p>
+                </li>
+                <li>
+                    <h2>Free to download</h2>
+                    <p>As always, Start Bootstrap has a powerful collection of free templates.</p>
+                </li>
+                <li>
+                    <h2>Jumbotron hero header</h2>
+                    <p>The heroic part of this template is the jumbotron hero header!</p>
+                </li>
+                <li>
+                    <h2>Feature boxes</h2>
+                    <p>We've created some custom feature boxes using Bootstrap icons!</p>
+                </li>
+                <li>
+                    <h2>Simple clean code</h2>
+                    <p>We keep our dependencies up to date and squash bugs as they come!</p>
+                </li>
+                <li>
+                    <h2>A name you trust</h2>
+                    <p>Start Bootstrap has been the leader in free Bootstrap templates since 2013!</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id = "form_section">
+
+            <p>Completa el siguiente formulario</p>
+
+            <form name = "formulario" method = "GET" action = "placeholder" target = "placeholder">
+                <div class = "form_container">
+                    <label for = "first_name">First name</label>
+                    <input type = "text" name = "first_name" id = "first_name" required autocomplete="name">
+                </div>
+                
+                <div class = "form_container">
+                    <label for = "last_name">Last name</label>
+                    <input type="text" name = "last_name" id = last_name required autocomplete="family-name">    
+                </div>
+                
+                <div class = "form_container" id = "email-container">
+                    <label for = "email">Email adress</label>
+                    <input type = "email" name="email" id = "email" required autocomplete="email">
+                </div>
+
+                <div class = "form_container">
+                    <label for = "password">Password</label>
+                    <input type = "password" name = "password" id = "password" required>
+                </div>
+
+                <div class = "form_container">
+                    <label for="confirm_password">Confirm password</label>
+                    <input type="password" name = "confirm_password" id = "confirm_password" required>
+                </div>
+
+                <div class = "form_container" id = "terms-container">
+                    <label for="terms_checkbox">I accept <a href = "placeholder" target = "_blank">terms & conditions</a></label>
+                    <input type = "checkbox" name = "terms_checkbox" id = "terms_checkbox" required>
+                </div>
+
+                <div class = "button_container">
+                    <button class = "btn">Create account</button>
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <p>Copyright Your website 2023</p>
+        </footer>
+    </main>
+    
+</body>
+</html>

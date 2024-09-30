@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cite1, #cite2 {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    border-left: 5px solid #76b5c5;
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+.author{
+    display: flex;
+    justify-content: right;
+    width: 94%;
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+aside {
+   position: absolute;
+   top:10px;
+   right:10px;
+   font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
+
+.location p{
+    margin: 0;
+}
+
+#date{
+    text-align: right;
+}

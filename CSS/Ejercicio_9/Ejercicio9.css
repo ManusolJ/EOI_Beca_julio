@@ -1,0 +1,10 @@
+.p2{
+    text-shadow: rgb(22, 21, 21)1px 5px 1px
+}
+
+.p4{
+    background: -webkit-linear-gradient(top, #FFFFFF, #666666);
+    background: -webkit-linear-gradient(top right, #FFFFFF, #666666);
+    background: -webkit-linear-gradient(30deg, #FFFFFF, #666666);
+    background: -webkit-linear-gradient(top, transparent, #666666);
+}

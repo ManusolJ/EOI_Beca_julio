@@ -1,0 +1,104 @@
+header,
+footer {
+    background-color: #2B2B2B;
+    width: 100%;
+}
+
+header button:hover {
+    animation: shakeItBaby 0.5s infinite;
+    background-color: #E3350D;
+}
+
+main {
+    background-color: #A4A9AD;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.player_board_1,
+.player_board_2 {
+    background-color: #78C850;
+    overflow: hidden;
+}
+
+.arrow {
+    transform: rotate(90deg);
+    padding-bottom: -20px;
+}
+
+.icon_hit {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+}
+
+#game_section button {
+    max-width: 80px;
+    height: 120px;
+    transition: 0.5s ease-in-out;
+}
+
+#game_section article:nth-child(odd) button:nth-child(even),
+#game_section article:nth-child(even) button:nth-child(odd) {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/014/022/441/original/water-pokemon-pattern-free-vector.jpg");
+    background-size: cover;
+}
+
+#game_section article:nth-child(odd) button:nth-child(odd),
+#game_section article:nth-child(even) button:nth-child(even) {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/014/022/435/original/grass-pokemon-pattern-free-vector.jpg");
+    background-size: cover;
+}
+
+#game_section button:hover {
+    scale: 1.1;
+}
+
+footer p:hover {
+    animation: rotateItBaby 1s linear infinite;
+}
+
+.rotateEffect {
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+
+#game_section article button div {
+    max-width: 80px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-in-out;
+}
+
+@keyframes shakeItBaby {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotateItBaby {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}

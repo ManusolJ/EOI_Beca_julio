@@ -1,0 +1,66 @@
+{
+  "clientes": [
+    {
+      "arrayUsuarios": [
+        {
+          "nombre": "usuario 1",
+          "apellidos": "apellidos 1",
+          "direcciones": [
+            {
+              "direccion": "Calle 1, Alicante",
+              "cpostal": "03001"
+            },
+            {
+              "direccion": "Calle 2, Alicante",
+              "cpostal": "03002"
+            }
+          ]
+        },
+        {
+          "nombre": "usuario 2",
+          "apellidos": "apellidos 2",
+          "direcciones": [
+            {
+              "direccion": "Calle 3, Alicante",
+              "cpostal": "03003"
+            }
+          ]
+        },
+        {
+          "nombre": "usuario 3",
+          "apellidos": "apellidos 3",
+          "direcciones": [
+            {
+              "direccion": "Calle 4, Alicante",
+              "cpostal": "03004"
+            },
+            {
+              "direccion": "Calle 5, Alicante",
+              "cpostal": "03005"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "U001",
+      "nombre": "Usuario 1",
+      "apellidos": "Apellidos usuario 1",
+      "email": "usuario1@gmail.com"
+    },
+    {
+      "id": "U002",
+      "nombre": "Usuario 2",
+      "apellidos": "Apellidos usuario 2",
+      "email": "usuario2@gmail.com"
+    },
+    {
+      "id": "U003",
+      "nombre": "Usuario 3",
+      "apellidos": "Apellidos usuario 3",
+      "email": "usuario3@gmail.com"
+    }
+  ]
+}
